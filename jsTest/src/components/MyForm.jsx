@@ -14,7 +14,6 @@ const MyForm = () => {
         } else {
             alert(`La suma de los números es impar: ${sum}`)
         }
-        a()
     }
 
 
