@@ -1,0 +1,21 @@
+
+-- 1. 
+
+SELECT NOMBRE FROM usuarios WHERE ROLID = 1 ORDER BY NOMBRE;
+
+-- 2. 
+
+SELECT COUNT(*) FROM usuarios WHERE SEXO = 'M';
+
+-- 3. 
+
+SELECT ROLID, COUNT(*) FROM usuarios GROUP BY ROLID;
+
+-- 4. 
+
+SELECT SEXO, AVG(EDAD) FROM usuarios GROUP BY SEXO;
+
+
+
+
+
